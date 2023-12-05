@@ -1,0 +1,1 @@
+# simplechess-study-tool
