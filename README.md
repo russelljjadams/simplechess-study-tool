@@ -1,11 +1,11 @@
 # Chess Study Tool
 
-A Python-based toolkit designed to enhance your chess training regimen. It fetches your chess games from [chess.com](https://www.chess.com), executes a thorough analysis via Stockfish, and compiles crucial positions for study.
+A Python-based toolkit designed to enhance your chess training regimen. It fetches your chess games from [chess.com](https://www.chess.com), executes a thorough analysis via Stockfish, and compiles critical positions for study.
 
 ## Features
 
 - Retrieval of games from the previous month automatically via the chess.com APIs.
-- In-depth game analysis utilizing the top-tier Stockfish engine. (Ignores bullet and blitz games.)
+- In-depth game analysis utilizing the top-tier Stockfish engine. (Ignores bullet and blitz games. This can be changed.)
 - Curated list of critical positions compiled into a PGN file for tactical improvement.
 
 ## Prerequisites
