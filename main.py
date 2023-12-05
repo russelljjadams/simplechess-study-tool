@@ -26,8 +26,8 @@ TO_STUDY_FILE_TEMPLATE = 'to_study/moves_to_study_{username}.pgn'
 
 # Set up default User-Agent for chess.com API
 chessdotcom.Client.request_config["headers"]["User-Agent"] = (
-    "My Python Application. "
-    "Contact me at example@example.com"
+    "Username: SimpleChessBrah"
+    "Contact me at simplechessbro@gmail.com"
 )
 
 # Helper function definitions:
@@ -61,6 +61,13 @@ def get_percentage_threshold(score_before, percentage_threshold_base=0.42, max_e
     if abs(score_before) <= max_eval_for_strict_percentage:
         return percentage_threshold_base
     return percentage_threshold_base + math.log(abs(score_before) / max_eval_for_strict_percentage, 10) * 0.05
+
+def is_long_game(game_pgn, min_duration=600):
+    time_control_match = re.search(r'\[TimeControl "(\d+)\+(\d+)"\]', game_pgn)
+    if time_control_match:
+        initial_time = int(time_control_match.group(1))
+        return initial_time >= min_duration
+    return False  # If TimeControl is not found or doesn't match, consider it a short game.
 
 def fetch_games(config):
     """
@@ -103,9 +110,9 @@ def fetch_games(config):
             game_url = link_match.group(1)
             game_id = game_url.split('/')[-1]  # Extract the identifier from the URL
 
-            # Add the game to the dictionary if it's not already processed
-            if game_id not in processed_game_urls:
-                games_dict[game_id] = game  # Save the PGN data in the dictionary
+            # Check if the game duration is longer than 10 minutes
+            if game_id not in processed_game_urls and is_long_game(game):
+                games_dict[game_id] = game  # Save the PGN data in the dictionary if it meets time criteria
                 # Append the link to the processed_games_file
                 with open(processed_games_file, 'a') as file:
                     file.write(game_id + '\n')
@@ -290,28 +297,28 @@ def extract_moves_for_study(config):
 
     print("Finished creating moves_to_study.pgn with positions to review.")    
     
-def split_pgn(filename, max_positions_per_file=100):
-    base_name, ext = os.path.splitext(filename)
-    count = 1
-    game_counter = 0
-    current_file = None
-
-    with open(filename) as f:
-        for line in f:
-            if line.startswith('[Event ') and game_counter >= max_positions_per_file:
-                current_file.close()
-                count += 1
-                game_counter = 0
-
-            if game_counter == 0:
-                current_file = open(f"{base_name}_part_{count}{ext}", 'w')
-            
-            current_file.write(line)
-            if line.isspace() and not game_counter == 0:  # End of a game
-                game_counter += 1
-    
-    if current_file:
-        current_file.close()
+def split_pgn(original_filename, max_games_per_file=100):
+    with open(original_filename, 'r') as original_file:
+        game_count = 0
+        file_count = 1
+        current_pgn = []
+        for line in original_file:
+            current_pgn.append(line)
+            if '[Event "Bad Moves Analysis"]' in line and len(current_pgn) > 1:  # New game detected
+                game_count += 1
+                if game_count % max_games_per_file == 0:
+                    # Save current_pgn to a file, excluding the last line, which is the start of the new game.
+                    part_filename = f"{original_filename.rstrip('.pgn')}_part_{file_count}.pgn"
+                    with open(part_filename, 'w') as output_file:
+                        output_file.writelines(current_pgn[:-1])
+                    current_pgn = [line]  # Start with the new game
+                    file_count += 1
+        
+        # Write the remaining games to the last part file
+        if current_pgn:
+            part_filename = f"{original_filename.rstrip('.pgn')}_part_{file_count}.pgn"
+            with open(part_filename, 'w') as output_file:
+                output_file.writelines(current_pgn)
     
 
 def get_previous_month_year():
@@ -336,7 +343,8 @@ def main():
     save_config(config, config_file)
     
     # Split PGN for ease of use with Chessable
-    split_pgn('to_study/moves_to_study_username.pgn', 100)
+    username = config['username']
+    split_pgn(f'to_study/moves_to_study_{username}.pgn', 100)
 
 if __name__ == "__main__":
     main()

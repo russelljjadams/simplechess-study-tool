@@ -5,7 +5,7 @@ A Python-based toolkit designed to enhance your chess training regimen. It fetch
 ## Features
 
 - Retrieval of games from the previous month automatically via the chess.com APIs.
-- In-depth game analysis utilizing the top-tier Stockfish engine.
+- In-depth game analysis utilizing the top-tier Stockfish engine. (Ignores bullet and blitz games.)
 - Curated list of critical positions compiled into a PGN file for tactical improvement.
 
 ## Prerequisites
@@ -20,12 +20,6 @@ Begin by cloning the repository to your system:
 ```bash
 git clone https://github.com/russelljjadams/simplechess/simplechess-study-tool.git
 cd chess-study-tool
-```
-
-Install the required project dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Configuration
