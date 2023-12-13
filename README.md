@@ -1,16 +1,16 @@
 # Chess Study Tool
 
-A Python-based toolkit designed to enhance your chess training regimen. It fetches your chess games from [chess.com](https://www.chess.com), executes a thorough analysis via Stockfish, and compiles critical positions for study.
+A Python-based toolkit designed to simplify training. It fetches your chess games from [chess.com](https://www.chess.com), executes an analysis via Stockfish, and compiles critical positions for study.
 
 ## Features
 
 - Retrieval of games from the previous month automatically via the chess.com APIs.
-- In-depth game analysis utilizing the top-tier Stockfish engine. (Ignores bullet and blitz games. This can be changed.)
-- Curated list of critical positions compiled into a PGN file for tactical improvement.
+- In-depth game analysis utilizing the Stockfish engine. (Ignores bullet and blitz games. This can be changed.)
+- Curated list of critical positions compiled into a PGN file for study.
 
 ## Prerequisites
 
-- Python 3.6 or higher.
+- Python 3.6 or higher. (Other versions will probably work, too.)
 - Stockfish chess engine installed on your device.
 
 ## Installation
@@ -46,15 +46,15 @@ The positions are available in a PGN file for review at `to_study/moves_to_study
 
 ## Workflow Recommendation
 
-1. At each month's onset, run the tool to process the preceding month's games.
+1. At the beginning of a new month, run the tool to process the preceding month's games.
 2. Study the resulting positions throughout the month.
 3. A streamlined approach: upload the PGN file to [Chessable](https://www.chessable.com) to take advantage of their spaced repetition features. For non-premium users, be mindful of the 100 positions limit per PGN upload. If needed, use the split_pgn function provided below to break your PGN into appropriately sized files.
 
-4. Repeat monthly to ensure ongoing development in your chess skills.
+4. Repeat monthly.
 
 ## Splitting PGN files for Non-Premium Chessable Accounts
 
-For users without a Chessable premium account, use the `split_pgn` function to partition your PGN into multiple files with a maximum of 100 positions each. This allows you to upload all of your positions to Chessable across multiple files.
+For users without a Chessable premium account, the `split_pgn` function is used to partition your PGN into multiple files with a maximum of 100 positions each. This allows you to upload all of your positions to Chessable across multiple files.
 
 ## Contributions
 

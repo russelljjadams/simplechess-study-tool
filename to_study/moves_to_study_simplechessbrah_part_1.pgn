@@ -1,0 +1,1116 @@
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqk1nr/ppppppbp/6p1/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3"]
+[SetUp "1"]
+
+3. c3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbq1rk1/ppp1ppbp/3p1np1/8/3PP3/2PB1N2/PP3PPP/RNBQK2R w KQ - 4 6"]
+[SetUp "1"]
+
+6. Nbd2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbq1rk1/pp2ppbp/3p1np1/2p5/3PP3/2PB1N2/PP1N1PPP/R1BQK2R w KQ - 0 7"]
+[SetUp "1"]
+
+7. Qe2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bq1rk1/4ppbp/p1np1np1/1p6/3PP3/3B1N1P/PP1NQPP1/R1B2RK1 w - - 0 11"]
+[SetUp "1"]
+
+11. b3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/1b2ppbp/p1np1np1/1p6/3PP3/1P1B1N1P/P2NQPP1/R1B2RK1 w - - 1 12"]
+[SetUp "1"]
+
+12. Bb2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/1b2ppbp/p1np1np1/qp6/3PP3/1P1B1N1P/PB1NQPP1/2R2RK1 w - - 5 14"]
+[SetUp "1"]
+
+14. Rc2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/1b2ppbp/p1np2p1/qp5n/3PP3/1P1B1N1P/PBRNQPP1/5RK1 w - - 7 15"]
+[SetUp "1"]
+
+15. Qe3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/1b2ppbp/pqnp2p1/1p5n/3PP3/1P1BQN1P/PBRN1PP1/5RK1 w - - 9 16"]
+[SetUp "1"]
+
+16. g4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/1b2ppbp/pqnp1np1/1p6/3PP1P1/1P1BQN1P/PBRN1P2/5RK1 w - - 1 17"]
+[SetUp "1"]
+
+17. Rfc1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "8/4n1kp/pq1p2p1/1pnPp1P1/4P1b1/PP3N2/1BBQ1P2/6K1 w - - 0 34"]
+[SetUp "1"]
+
+34. Qe3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "8/2q1n1kp/p5p1/1pnPp1P1/4P1b1/PP2Q3/1BB2P2/6K1 w - - 0 36"]
+[SetUp "1"]
+
+36. Bxe5+ { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2qk1nr/ppp2ppp/2nb4/8/4P1b1/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 6"]
+[SetUp "1"]
+
+6. Be2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2qk2r/ppp2ppp/2nb1n2/8/4P1b1/5N2/PPP1BPPP/RNBQK2R w KQkq - 2 7"]
+[SetUp "1"]
+
+7. Nbd2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r4rk1/ppp1qppp/2nb1n2/7b/4P3/5N1P/PPPNBPP1/R1BQ1RK1 w - - 3 10"]
+[SetUp "1"]
+
+10. Bd3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4"]
+[SetUp "1"]
+
+4... Bc5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bq3r/pppp1kpp/8/8/1n1Pn3/1Q3N2/PP3PPP/RN2K2R b KQ - 1 10"]
+[SetUp "1"]
+
+10... d5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bq1rk1/ppp3pp/8/3p4/1Q1Pn3/2N2N2/PP3PPP/R4RK1 b - - 4 13"]
+[SetUp "1"]
+
+13... Rxf3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 2"]
+[SetUp "1"]
+
+2... Bf5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rn1qkbnr/ppp1pppp/8/3p4/3P4/3QP3/PPP2PPP/RNB1K1NR b KQkq - 0 4"]
+[SetUp "1"]
+
+4... e6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rn1qkbnr/pp3ppp/4p3/2pp4/3P4/1P1QPN2/P1P2PPP/RNB1K2R b KQkq - 0 6"]
+[SetUp "1"]
+
+6... Nd7 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1b1kb1r/ppp2ppp/2n2n2/q3p3/2P5/3P1N2/PP1B1PPP/RN1QKB1R b KQkq - 2 7"]
+[SetUp "1"]
+
+7... Bb4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1b1k2r/ppp2ppp/2n2n2/q3p3/1bP5/3P1N2/PP1BBPPP/RN1QK2R b KQkq - 4 8"]
+[SetUp "1"]
+
+8... O-O { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1b2rk1/ppp2ppp/2n2n2/q3p3/1bP5/3P1N2/PP1BBPPP/RN1Q1RK1 b - - 6 9"]
+[SetUp "1"]
+
+9... h6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r4rk1/ppp2pp1/2n2n1p/q3pb2/1bP5/P2PBN2/1P2BPPP/RN1Q1RK1 b - - 0 11"]
+[SetUp "1"]
+
+11... Rad8 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1rk1/ppp2pp1/2n2n1p/q3pb2/1bP5/P2PBN2/1PQ1BPPP/RN3RK1 b - - 2 12"]
+[SetUp "1"]
+
+12... Ng4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1rk1/ppp2pp1/2n4p/q3pb2/2P5/P1PPPN2/2Q1B1PP/R4RK1 b - - 0 15"]
+[SetUp "1"]
+
+15... Qb6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1rk1/ppp2pp1/1qn4p/4pb2/2P5/P1PPPN2/3QB1PP/R4RK1 b - - 2 16"]
+[SetUp "1"]
+
+16... Be4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1b2rk1/2q1bppp/ppnppn2/8/2PNP3/P1N1B3/1P2BPPP/2RQ1RK1 w - - 0 12"]
+[SetUp "1"]
+
+12. f4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r4rk1/1bq1bppp/ppnppn2/8/2PNPP2/P1N1B3/1P2B1PP/2RQ1RK1 w - - 1 13"]
+[SetUp "1"]
+
+13. Bf3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1rk1/1bq1bppp/ppnppn2/8/2PNPP2/P1N1BB2/1P4PP/2RQ1RK1 w - - 3 14"]
+[SetUp "1"]
+
+14. Qe2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3b2k1/5p1p/1pP3p1/4p3/1P2P1B1/P7/6PP/6K1 w - - 0 31"]
+[SetUp "1"]
+
+31. b5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3b4/5p1p/1pP3p1/1P2p3/Pk2P1B1/3K4/6PP/8 w - - 1 36"]
+[SetUp "1"]
+
+36. Bd1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "8/2b2p2/1pP3pp/1Pk1p3/P3P2P/2K5/6P1/3B4 w - - 0 39"]
+[SetUp "1"]
+
+39. g4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/pp1bnpbp/2npp1p1/1B6/3PP3/2N1BN2/PP1Q1PPP/R4RK1 w - - 4 11"]
+[SetUp "1"]
+
+11. a3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2qr1k1/1b3pbp/p1np2p1/1p1B4/4P3/P3BN2/1P1Q1PPP/3R1RK1 w - - 1 18"]
+[SetUp "1"]
+
+18. Nd4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r3r1k1/1b1q1pbp/p1np2p1/1p1B4/3NP3/P3B3/1P1Q1PPP/3R1RK1 w - - 3 19"]
+[SetUp "1"]
+
+19. b4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3rr1k1/1b1q1pbp/p1np2p1/1p1B4/1P1NP3/P3B3/3Q1PPP/3R1RK1 w - - 1 20"]
+[SetUp "1"]
+
+20. Nxc6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r1r1k1/3q1pbp/p2B2p1/1p1b4/1P2P3/P4P2/3Q2PP/3R1RK1 w - - 0 25"]
+[SetUp "1"]
+
+25. Qxd5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2rr2k1/3q1pbp/p2B2p1/1p1Q4/1P2P3/P4P2/6PP/3R1RK1 w - - 1 26"]
+[SetUp "1"]
+
+26. Bc5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2rr2k1/5pb1/p5pp/1pB1P3/1P3Pq1/P3Q3/6PP/2RR2K1 w - - 5 33"]
+[SetUp "1"]
+
+33. Bd6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r4/2QP1p1k/p5pp/1p6/1P3P2/P7/4q1PP/3R3K w - - 5 40"]
+[SetUp "1"]
+
+40. Rc1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r4/3P1pk1/p2R2p1/1p5p/1P3P2/P6P/6P1/7K w - - 1 48"]
+[SetUp "1"]
+
+48. Rxa6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "8/3r1pk1/R5p1/1p5p/1P3P2/P6P/6P1/7K w - - 0 49"]
+[SetUp "1"]
+
+49. Rb6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqk2r/ppp1ppbp/2n2np1/8/3P1B2/2N2N2/PPPQ1PPP/R3KB1R w KQkq - 4 8"]
+[SetUp "1"]
+
+8. Nb5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqkbnr/pp3ppp/2p1p3/8/2PPN3/8/PP3PPP/R1BQKBNR b KQkq - 0 5"]
+[SetUp "1"]
+
+5... Nf6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnb2rk1/pp3ppp/2p1pq2/8/2PP4/5N2/PP1Q1PPP/2KR1B1R b - - 2 10"]
+[SetUp "1"]
+
+10... b5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1b2rk1/p4ppp/n1p1pq2/1pP1N3/3P4/8/PP1Q1PPP/2KR1B1R b - - 2 12"]
+[SetUp "1"]
+
+12... Nb8 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2r4/1b6/2p1R3/ppP3k1/3Pp3/8/PP3P2/2KR4 b - - 0 28"]
+[SetUp "1"]
+
+28... Re8 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4"]
+[SetUp "1"]
+
+4... d5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/p1p2ppp/2p2n2/4N3/4p3/3P4/PPP2PPP/RNBQ1RK1 b kq - 1 7"]
+[SetUp "1"]
+
+7... exd3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r3r/pkp3pp/2pb1p2/8/2P5/P2nB3/1P2RPPP/RN4K1 b - - 1 18"]
+[SetUp "1"]
+
+18... Rhe8 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3rr3/pkp3pp/2pb1p2/8/2P5/P1NnB3/1P2RPPP/R5K1 b - - 3 19"]
+[SetUp "1"]
+
+19... f5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqk1nr/ppp2ppp/3bp3/3p4/3P1P2/4PN2/PPP3PP/RNBQKB1R b KQkq - 0 4"]
+[SetUp "1"]
+
+4... Ne7 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bq1r2/6p1/1pnbpnk1/p1pp1pN1/3P1P1N/2PQP3/PP3RPP/R1B3K1 b - - 3 15"]
+[SetUp "1"]
+
+15... Kh5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbq1rk1/3nppbp/p1p3p1/1p2P3/8/2NB1N1P/PPP2PP1/R1BQ1RK1 w - - 1 11"]
+[SetUp "1"]
+
+11. Bf4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbq1rk1/4ppbp/p1p3p1/1pn1P3/5B2/2NB1N1P/PPP2PP1/R2Q1RK1 w - - 3 12"]
+[SetUp "1"]
+
+12. Be2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r2k1/4ppbp/pn2n1p1/1pp1P3/8/5NBP/PPP1BPP1/4R1K1 w - - 0 20"]
+[SetUp "1"]
+
+20. Rd1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+
+1... Nf6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rn1qk2r/pp3pp1/2pb1n1p/3p1b2/3P1B2/2N2N2/PP1QPPPP/R3KB1R b KQkq - 5 9"]
+[SetUp "1"]
+
+9... O-O { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r2k1/pp1n1ppb/2pq3p/3r4/3P3N/4PQPB/PP5P/R4RK1 b - - 0 20"]
+[SetUp "1"]
+
+20... Qf6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "8/p5p1/4k2p/1p3p2/3K1P2/1P6/P6P/8 b - - 1 38"]
+[SetUp "1"]
+
+38... Kd6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "4kb1r/p2r1ppp/4qn2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 2 15"]
+[SetUp "1"]
+
+15. Bxd7+ { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/pp2pppp/2n2n2/3p4/3P4/2PB4/PP3PPP/RNBQK1NR w KQkq - 1 6"]
+[SetUp "1"]
+
+6. h3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3"]
+[SetUp "1"]
+
+3... Bf5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2qkbnr/pp2pppp/2n5/3p1b2/3P4/1QN1P3/PP3PPP/R1B1KBNR b KQkq - 0 6"]
+[SetUp "1"]
+
+6... e6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2qkbnr/pQ3ppp/2n1p3/3p1b2/3P4/2N1P3/PP3PPP/R1B1KBNR b KQkq - 0 7"]
+[SetUp "1"]
+
+7... Qc8 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r1kbnr/p4ppp/2n1p3/1B1p1b2/3P4/2N1P3/PP3PPP/R1B1K1NR b KQk - 1 9"]
+[SetUp "1"]
+
+9... Bb4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/p4ppp/2n1pn2/1B1p1b2/3P4/P1N1P3/1P3PPP/R1B2RK1 b - - 0 13"]
+[SetUp "1"]
+
+13... Na5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/p4ppp/4pn2/n2p1b2/B2P4/P1N1P3/1P3PPP/R1B2RK1 b - - 2 14"]
+[SetUp "1"]
+
+14... Bd3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/5ppp/1n2p3/pN1p4/3P4/Pn1RP3/1P3PPP/1R2B1K1 b - - 3 21"]
+[SetUp "1"]
+
+21... a4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "2r2rk1/5ppp/1n2p3/3p4/p2P4/PnNRP3/1P3PPP/1R2B1K1 b - - 1 22"]
+[SetUp "1"]
+
+22... Na5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/pp2ppbp/2npbnp1/8/3NP1P1/2N1BP2/PPPQ3P/R3KB1R w KQ - 1 10"]
+[SetUp "1"]
+
+10. h4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/pp1nppbp/2npb1p1/8/3NP1PP/2N1BP2/PPPQ4/R3KB1R w KQ - 1 11"]
+[SetUp "1"]
+
+11. h5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/pp2pp1p/3pb1p1/4n2P/3QP1P1/2N2P2/PPP5/R3KB1R w KQ - 1 14"]
+[SetUp "1"]
+
+14. Bg2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r4rk1/pp2pp1p/3pb1p1/q3n2P/3QP1P1/2N2P2/PPP3B1/R3K2R w KQ - 3 15"]
+[SetUp "1"]
+
+15. h6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "6k1/ppr1p2p/3pbp1P/4n1p1/4P1P1/q4P2/P1P2RB1/1R2Q2K w - - 4 24"]
+[SetUp "1"]
+
+24. Qc3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"]
+[SetUp "1"]
+
+3... Nf6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2P2N2/PP1P1PPP/RNBQ1RK1 b kq - 0 5"]
+[SetUp "1"]
+
+5... Nxe4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqk2r/pppp1ppp/2n5/1Bb5/3Pn3/5N2/PP3PPP/RNBQ1RK1 b kq - 0 7"]
+[SetUp "1"]
+
+7... Bb4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2q1rk1/ppp2ppp/1bn1b3/1B4N1/1P1PR3/P7/5PPP/R1BQ2K1 b - - 2 14"]
+[SetUp "1"]
+
+14... Bf5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/pppp1ppp/2nn4/1B2p3/3P4/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 6"]
+[SetUp "1"]
+
+6. Bxc6 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/ppp2ppp/2pn4/4p3/3P4/5N2/PPP2PPP/RNBQ1RK1 w kq - 0 7"]
+[SetUp "1"]
+
+7. dxe5 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r1bqkb1r/ppp2ppp/2p5/4P3/4n3/5N2/PPP2PPP/RNBQ1RK1 w kq - 1 8"]
+[SetUp "1"]
+
+8. Qxd8+ { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2k1b1r/ppp2ppp/2p5/4P3/4n1b1/1P3N2/P1P2PPP/RNB2RK1 w - - 1 10"]
+[SetUp "1"]
+
+10. Nbd2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2k1b1r/ppp2ppp/2p5/4P3/6b1/1Pn2N2/P1PN1PPP/R1B2RK1 w - - 3 11"]
+[SetUp "1"]
+
+11. Bb2 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2k3r/ppp2ppp/2p5/4P3/6b1/PPn2N2/2PN1PPP/R4R1K w - - 0 15"]
+[SetUp "1"]
+
+15. Rfe1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r6r/ppp1kppp/2p5/4P3/8/PPn2N2/2P2PPP/R3R2K w - - 1 17"]
+[SetUp "1"]
+
+17. Nd4 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r2r4/ppp1kppp/2p5/4P3/3N4/PPn5/2P2PPP/R3R2K w - - 3 18"]
+[SetUp "1"]
+
+18. Nf5+ { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "r4k2/ppp2ppp/2p5/4PN2/8/PP3R2/2Pr1PPP/R2n3K w - - 9 21"]
+[SetUp "1"]
+
+21. Kg1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1k2/ppp2ppp/2p5/4PN2/8/PP3R2/2Pr1PPP/R2n2K1 w - - 11 22"]
+[SetUp "1"]
+
+22. Rc1 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "3r1k2/ppp2ppp/2p5/4PN2/8/PP3R2/2P1rPPP/2Rn2K1 w - - 13 23"]
+[SetUp "1"]
+
+23. g3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rn1qkb1r/ppp2ppp/4p1b1/3P2Pn/2PP4/5P2/PP5P/RNBQKBNR w KQkq - 1 8"]
+[SetUp "1"]
+
+8. Nc3 { Bad move identified for review. } *
+
+[Event "Bad Moves Analysis"]
+[Site "?"]
+[Date "2023.12.12"]
+[Round "?"]
+[White "simplechessbrah"]
+[Black "Analysis"]
+[Result "*"]
+[FEN "rn1qkb1r/ppp2ppp/6b1/3p2Pn/2PP4/2N2P2/PP5P/R1BQKBNR w KQkq - 0 9"]
+[SetUp "1"]
+
+9. Nxd5 { Bad move identified for review. } *
+
