@@ -63,11 +63,11 @@ def get_percentage_threshold(score_before, percentage_threshold_base=0.42, max_e
     return percentage_threshold_base + math.log(abs(score_before) / max_eval_for_strict_percentage, 10) * 0.05
 
 def is_long_game(game_pgn, min_duration=600):
-    time_control_match = re.search(r'\[TimeControl "(\d+)\+(\d+)"\]', game_pgn)
+    time_control_match = re.search(r'\[TimeControl "(\d+)', game_pgn)
     if time_control_match:
         initial_time = int(time_control_match.group(1))
         return initial_time >= min_duration
-    return False  # If TimeControl is not found or doesn't match, consider it a short game.
+    return False
 
 def fetch_games(config):
     """
@@ -334,6 +334,7 @@ def main():
     # Determine the year and month for the previous month
     year, month = get_previous_month_year()
     config['year'], config['month'] = year, month
+    config['month'] = 10
     
     fetch_games(config)  # Fetch and save games from the previous month
     analyze_games_with_stockfish(config)  # Analyze games with Stockfish
