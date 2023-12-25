@@ -1,4 +1,4 @@
-# Chess Study Tool
+# Chess Study Tool 
 
 A Python-based toolkit designed to simplify training. It fetches your chess games from [chess.com](https://www.chess.com), executes an analysis via Stockfish, and compiles critical positions for study.
 
