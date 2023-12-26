@@ -22,7 +22,7 @@ PROCESSED_GAMES_FILE_TEMPLATE = 'saved/processed_games_{username}.txt'
 GAMES_PICKLE_FILE_TEMPLATE = 'saved/games_dict_{username}.pickle'
 ANALYZED_GAMES_FILE_TEMPLATE = 'games/analyzed_games_{username}.pgn'
 NON_ANALYZED_GAMES_FILE_TEMPLATE = 'games/non_analyzed_games_{username}.pgn'
-TO_STUDY_FILE_TEMPLATE = 'to_study/moves_to_study_{username}.pgn'
+TO_STUDY_FILE_TEMPLATE = 'to_study/moves_to_study_{username}_{month}.pgn'
 
 # Set up default User-Agent for chess.com API
 chessdotcom.Client.request_config["headers"]["User-Agent"] = (
@@ -125,7 +125,7 @@ def fetch_games(config):
         pickle.dump(games_dict, file)
         
 
-def process(game, engine, username, depth=16, cp_threshold=25):
+def process(game, engine, username, depth=16, cp_threshold=60):
     white_player = game.headers["White"]
     black_player = game.headers["Black"]
     
@@ -228,11 +228,31 @@ def analyze_games_with_stockfish(config):
             for game_id in analyzed_games_update:
                 file.write(game_id + '\n')
                 
+
+def get_best_move_from_fen(fen, engine_path, depth=25):
+    """
+    Takes a FEN, uses Stockfish to determine the best move for the position and returns it.
+
+    Args:
+        fen (str): The FEN string representing the chess position.
+        engine_path (str): The path to the Stockfish engine executable.
+        depth (int): The depth of analysis for Stockfish.
+
+    Returns:
+        str: The UCI string of the best move according to Stockfish.
+    """
+    with chess.engine.SimpleEngine.popen_uci(engine_path) as engine:
+        board = chess.Board(fen)
+        result = engine.analyse(board, chess.engine.Limit(depth=depth))
+        best_move = result.get("pv")[0]  # Take the first move from the principal variation
+        return best_move.uci()
+                
                 
 def extract_moves_for_study(config):
     username = config['username']
+    month = config['month']
     analyzed_games_file = ANALYZED_GAMES_FILE_TEMPLATE.format(username=username)
-    to_study_file = TO_STUDY_FILE_TEMPLATE.format(username=username)
+    to_study_file = TO_STUDY_FILE_TEMPLATE.format(username=username, month=month)
     
     not_decent_moves_info = []  # Accumulate information from all games here
 
@@ -259,6 +279,7 @@ def extract_moves_for_study(config):
                 board = game.board()
 
                 for node in game.mainline():
+
                     fen_before_move = board.fen()
                     move = node.move
 
@@ -266,8 +287,9 @@ def extract_moves_for_study(config):
                         chess.pgn.NAG_DUBIOUS_MOVE in node.nags or
                         chess.pgn.NAG_MISTAKE in node.nags or
                         chess.pgn.NAG_BLUNDER in node.nags):
-
-                        not_decent_moves_info.append([fen_before_move, move.uci()])
+                        
+                        best_move = get_best_move_from_fen(fen_before_move, config["engine_path"])
+                        not_decent_moves_info.append([fen_before_move, move.uci(), best_move])
                     board.push(move)
 
     # Create directory for study files if it doesn't exist
@@ -276,7 +298,7 @@ def extract_moves_for_study(config):
 
     # Create a PGN file for all the accumulated positions from different games
     with open(to_study_file, 'w', encoding='utf-8') as pgn_file:
-        for fen, move_uci in not_decent_moves_info:
+        for fen, move_uci, best_move_uci in not_decent_moves_info:
             game = chess.pgn.Game()
             game.headers["Event"] = "Bad Moves Analysis"
             game.headers["Date"] = datetime.now().strftime("%Y.%m.%d")
@@ -289,6 +311,11 @@ def extract_moves_for_study(config):
             # Add the bad move to the game
             move = chess.Move.from_uci(move_uci)
             node = game.add_variation(move)
+            node.comment = "The move you made previously."
+            
+            # Add the best move to the mainline
+            move = chess.Move.from_uci(best_move_uci)
+            node = game.add_main_variation(move)
             node.comment = "Bad move identified for review."
 
             # Write to the PGN file
@@ -334,7 +361,6 @@ def main():
     # Determine the year and month for the previous month
     year, month = get_previous_month_year()
     config['year'], config['month'] = year, month
-    config['month'] = 10
     
     fetch_games(config)  # Fetch and save games from the previous month
     analyze_games_with_stockfish(config)  # Analyze games with Stockfish
@@ -345,7 +371,8 @@ def main():
     
     # Split PGN for ease of use with Chessable
     username = config['username']
-    split_pgn(f'to_study/moves_to_study_{username}.pgn', 100)
+    month = config['month']
+    split_pgn(f'to_study/moves_to_study_{username}_{month}.pgn', 100)
 
 if __name__ == "__main__":
     main()
